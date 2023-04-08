@@ -40,7 +40,7 @@ HTML Code
 								</div>
 HTML Code
 								<div class="col-lg-5 col-md-6 col-sm-5 col-xs-6">
-									<a href="#"><img class="img-responsive" src="img/two hands up.jpg" width="140" alt="Bonny Official"></a>	
+									<a href="#"><img class="img-responsive" src="img/two hands up.JPG" width="140" alt="Bonny Official"></a>	
 									<p>Cactus</p>
 								</div>
 
