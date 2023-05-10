@@ -1,0 +1,90 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  height: 100px;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  background: black;
+}
+
+.logo {
+  display: flex;
+  width: 15%;
+}
+
+.logo img {
+  display: flex;
+  padding: 10px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+  width: 85%;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  width: 200px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.nav-links ul li a {
+  color: dimgray;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-links ul li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links ul li ul.dropdown {
+  display: none;
+}
+
+.nav-links ul li:hover ul.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.nav-links ul li:hover ul.dropdown li {
+  display: block;
+  width: 90px;
+  background: black;
+  padding: 10px;
+  margin-top: 3px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-links ul li:hover ul.dropdown li a {
+  color: gray;
+  font-size: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-links ul li:hover ul.dropdown li a:hover {
+  color: black;
+}
+
+.nav-links ul li:hover ul.dropdown li:hover {
+  background: white;
+  border: 1px solid black;
+}
